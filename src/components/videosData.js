@@ -1,74 +1,87 @@
+import virat1 from "../assets/virat1.jpg";
+import virat2 from "../assets/virat2.jpg";
+import virat3 from "../assets/virat3.jpg";
+import virat4 from "../assets/virat4.jpg";
+import virat5 from "../assets/virat5.jpg";
+import virat6 from "../assets/virat6.jpg";
+import virat7 from "../assets/virat7.jpg";
+import virat8 from "../assets/virat8.jpg";
+import virat9 from "../assets/virat9.jpg";
+import virat10 from "../assets/virat10.jpg";
+import virat11 from "../assets/virat11.jpg";
+import virat12 from "../assets/virat12.jpg";
+
 export const videosData = [
   {
     id: 1,
-    image: "https://instagram.fbho1-2.fna.fbcdn.net/v/t51.2885-15/324063489_207667625086973_8820069062441033800_n.jpg?stp=c0.210.540.540a_dst-jpg_e15_s320x320&_nc_ht=instagram.fbho1-2.fna.fbcdn.net&_nc_cat=1&_nc_ohc=V1KDp81SbP8AX9xPIcG&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDhFguB_avcrRXT6eldEJgPT5ujAZPHUZqopJelYzpSLg&oe=63BC0D8A&_nc_sid=8fd12b",
-    likes: "1.5M",
-    comments: "27K",
+    image: virat1,
+    likes: "987K",
+    comments: "3,456",
   },
   {
     id: 2,
-    image: "https://i.ytimg.com/vi/2g811Eo7K8U/maxresdefault.jpg",
+    image: virat2,
     likes: "1.5M",
     comments: "27K",
   },
   {
     id: 3,
-    image: "https://i.ytimg.com/vi/2g811Eo7K8U/maxresdefault.jpg",
+    image: virat3,
     likes: "1.5M",
-    comments: "27K",
+    comments: "7,570",
   },
   {
     id: 4,
-    image: "https://i.ytimg.com/vi/2g811Eo7K8U/maxresdefault.jpg",
-    likes: "1.5M",
-    comments: "27K",
+    image: virat4,
+    likes: "1M",
+    comments: "21K",
   },
   {
     id: 5,
-    image: "https://i.ytimg.com/vi/2g811Eo7K8U/maxresdefault.jpg",
-    likes: "1.5M",
-    comments: "27K",
+    image: virat5,
+    likes: "7.7M",
+    comments: "32K",
   },
   {
     id: 6,
-    image: "https://i.ytimg.com/vi/2g811Eo7K8U/maxresdefault.jpg",
-    likes: "1.5M",
-    comments: "27K",
+    image: virat6,
+    likes: "5.9M",
+    comments: "23.9K",
   },
   {
     id: 7,
-    image: "https://i.ytimg.com/vi/2g811Eo7K8U/maxresdefault.jpg",
-    likes: "1.5M",
-    comments: "27K",
+    image: virat7,
+    likes: "1.2M",
+    comments: "5,232",
   },
   {
     id: 8,
-    image: "https://i.ytimg.com/vi/2g811Eo7K8U/maxresdefault.jpg",
-    likes: "1.5M",
-    comments: "27K",
+    image: virat8,
+    likes: "4.5M",
+    comments: "6,298",
   },
   {
     id: 9,
-    image: "https://i.ytimg.com/vi/2g811Eo7K8U/maxresdefault.jpg",
-    likes: "1.5M",
-    comments: "27K",
+    image: virat9,
+    likes: "1.6M",
+    comments: "11.4K",
   },
   {
     id: 10,
-    image: "https://i.ytimg.com/vi/2g811Eo7K8U/maxresdefault.jpg",
+    image: virat10,
     likes: "1.5M",
     comments: "27K",
   },
   {
     id: 11,
-    image: "https://i.ytimg.com/vi/2g811Eo7K8U/maxresdefault.jpg",
-    likes: "1.5M",
-    comments: "27K",
+    image: virat11,
+    likes: "1.2M",
+    comments: "13K",
   },
   {
     id: 12,
-    image: "https://i.ytimg.com/vi/2g811Eo7K8U/maxresdefault.jpg",
-    likes: "1.5M",
-    comments: "27K",
+    image: virat12,
+    likes: "2M",
+    comments: "4,325",
   },
 ];
