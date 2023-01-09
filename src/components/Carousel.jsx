@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import image from '../assets/carousel.jpg';
 
 // Data
-import data from './data';
+import data from './data.json';
 
 const Carousel = () => {
   const maxScrollWidth = useRef(0);
@@ -52,12 +52,16 @@ const Carousel = () => {
 
   return (
     <div className="carousel mx-auto bg-[#f5f3f3] shadow-md">
+      {/* CAROUSEL HEADING */}
       <div className="carousel__text flex justify-between p-4 font-semibold text-sm">
         <p className="carousel__heading text-[#8e8e8e] cursor-pointer">Related Accounts</p>
         <p className="carousel__heading text-[#189af6] cursor-pointer">See all</p>
       </div>
+      {/* CAROUSEL */}
       <div className="relative overflow-hidden pl-8">
+        {/* BUTTONS */}
         <div className="flex justify-between absolute top left w-full h-full">
+          {/* PREVIOUS BUTTON */}
           <button
             onClick={movePrev}
             className="absolute text-white w-10 text-center opacity-70 hover:opacity-100 disabled:opacity-0 disabled:cursor-not-allowed z-10 transition-all ease-in-out duration-300 bg-gray-400 rounded-full h-fit top-[42%] p-3"
@@ -68,6 +72,7 @@ const Carousel = () => {
             </svg>
             <span className="sr-only">Prev</span>
           </button>
+          {/* NEXT BUTTON */}
           <button
             onClick={moveNext}
             className=" text-white w-10 text-center hover:opacity-100 disabled:opacity-0 disabled:cursor-not-allowed z-10 transition-all ease-in-out duration-300 absolute right-[35px] rounded-full h-fit p-3 top-[42%] bg-gray-400 opacity-70"
@@ -78,7 +83,9 @@ const Carousel = () => {
             </svg>
             <span className="sr-only">Next</span>
           </button>
+
         </div>
+        {/* CAROUSEL CARDS */}
         <div
           ref={carousel}
           className="carousel-container relative flex gap-10 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"

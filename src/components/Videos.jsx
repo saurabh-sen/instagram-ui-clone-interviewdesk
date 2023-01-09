@@ -4,12 +4,13 @@ import { videosData } from './videosData'
 const Videos = () => {
   return (
     <div className='videos flex flex-wrap gap-10 relative'>
+      {/* VIDEO CARDS */}
       {
         videosData.map((video) => {
           return <VideoCard key={video.id} image={video.image} likes={video.likes} comments={video.comments}  />
         })
       }
-      
+      {/* SHOW MORE TAG */}
       <div className="videos__showmore bg-[#0095f6] text-white font-semibold w-fit absolute bottom-0 right-[37%] mb-4 py-2 px-4 rounded-3xl cursor-pointer">
         <p>Show more posts from virat.kohli</p>
       </div>
